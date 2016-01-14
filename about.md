@@ -3,4 +3,8 @@ layout: page
 title: About me 
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Sophomore at IIIT-H
+[Bitbucket][bitbucket]
+
+
+[bitbuckt]: https://bitbucket.org/akshat_tandon/

@@ -34,4 +34,4 @@ Finally some graphs ranging from easy to difficult were added. Bruno helped me i
 ![Gcompris]({{ site.url }}/assets/wiki_graphs.png)
 Now since the activity is almost complete I am planning on starting a new activity. I have discussed some ideas with Aruna regarding a dictation activity and an algebra one. I am hoping to complete these before the end of Season of KDE.
 
-[wiki-graph]: https://github.com/mojombo/jekyll
+[wiki-graph]: https://en.wikipedia.org/wiki/Gallery_of_named_graphs
