@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Starting work on the SoK - Blog post 1"
+title:  "Starting work on the SoK - Part 1"
 date:   2016-01-14 10:18:00
 categories: sok open-source kde
 ---
