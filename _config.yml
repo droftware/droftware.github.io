@@ -1,5 +1,5 @@
-name: Akshat Tandon
-description: Blogging about open source
+name: Random Bits
+description: Blogging about college, open-source and randomness.
 meta_description: ""
 
 markdown: redcarpet
@@ -7,9 +7,9 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://droftware.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://droftware.github.io'
+author:         'Akshat Tandon'
