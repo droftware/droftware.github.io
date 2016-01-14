@@ -5,7 +5,7 @@ date:   2016-01-14 10:18:00
 categories: sok open-source kde
 ---
 
-![KDE SoK]({{ site.url }}/assets/kde_logo.jpg)
+![KDE SoK]({{ site.url }}/assets/kde_logo.svg)
 
 I got to know about KDE SoK through a facebook post and straight away I hopped onto the ideas page. Since I was a complete beginner in the open source domain I was hoping to find a project with code that is easy to understand and comprehend, has good documentation for newbie programmers and whose mentors are supportive and explain even the trivial matters. 
 
