@@ -9,6 +9,7 @@ paginate: 15
 baseurl: /
 domain_name: 'http://droftware.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
+comments: true
 
 # Details for the RSS feed generator
 url:            'http://droftware.github.io'
