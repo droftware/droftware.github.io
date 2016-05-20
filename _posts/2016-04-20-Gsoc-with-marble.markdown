@@ -9,8 +9,6 @@ categories: gsoc open-source kde marble
 
 I have been selected in GSoC and this summer's I will be working on Marble to improve its vector tiling and rendering capabilities.
 
-![marble logo]({{ site.url }}/assets/marble-logo.png =273x77)
-
 Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features. 
 
 ### Current state of things
