@@ -44,7 +44,7 @@ street markers.
 
 My work will majorly involve adding vector tile support at low levels using the Natural Earth dataset.
 This dataset is provided in SHP format and hence prior to any coding, the vector data in SHP format will need to be
-converted into OSM format using pre-existing tools such as shp2osm. We will get the OSM files but they are not  tiled. These files would contain an enormous amount of data and if we load all this data into Marble then it would go out of memory and any color or styling would not exist.
+converted into OSM format using pre-existing tools such as shp2osm. After this we will have the OSM files but these are not yet tiled. These files would contain an enormous amount of data and if we load all this data into Marble then it would go out of memory and any color or styling would not exist.
 
 ![Marble]({{ site.url }}/assets/marble_sc1.png)
 *Natural Earth road dataset loaded in Marble. Notice the amount of detail, leading to screen clutter and the lack of any styling.*
