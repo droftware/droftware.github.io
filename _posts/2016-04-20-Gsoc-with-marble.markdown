@@ -4,6 +4,8 @@ title:  "Google Summer of Code with Marble !"
 date:   2016-04-20 10:18:00
 categories: gsoc open-source kde marble
 ---
+![Marble ]({{ site.url }}/assets/gsoc.png)
+![Marble ]({{ site.url }}/assets/marble-logo.png)
 
 I have been selected in GSoC and this summer's I will be working on Marble to improve its vector tiling and rendering capabilities.
 
@@ -41,15 +43,15 @@ My work will majorly involve adding vector tile support at low levels using the 
 This dataset is provided in SHP format and hence prior to any coding, the vector data in SHP format will need to be
 converted into OSM format using pre-existing tools such as shp2osm. After this we will have the OSM files but they are not yet tiled. These files would contain an enormous amount of data and if we load all this data into Marble then it would go out of memory and any color or styling would not exist.
 
-Natural Earth road dataset loaded in Marble. Notice the amount of detail, leading to screen clutter and the lack of any styling.
 ![Marble ]({{ site.url }}/assets/marble_sc1.png)
+*Natural Earth road dataset loaded in Marble. Notice the amount of detail, leading to screen clutter and the lack of any styling.*
 
 After this conversion, my actual work starts in which I have to build a tool using the Mable libraries.
-* Which loads all these OSM files containg Natural Earth data.
-* Merges all the data in a single document.
-* Simplifies the data for a certain zoom level by reducing and filtering the number of nodes required for rendering.
-* Concatenates the polygons and polyline where it makes sense.
-* Split the data into lots of different rectangular tiles.	
+1. Which loads all these OSM files containg Natural Earth data.
+2. Merges all the data in a single document.
+3. Simplifies the data for a certain zoom level by reducing and filtering the number of nodes required for rendering.
+4. Concatenates the polygons and polyline where it makes sense.
+5. Splits the data into lots of different rectangular tiles.	
 
 The core of the work will involve lots of mathematical problems (e.g. simplifying paths, concatenating paths, averaging paths, clipping paths to a rect, drawing coastlines etc.)
 
