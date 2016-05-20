@@ -9,13 +9,13 @@ I have been selected in GSoC and this summer's I will be working on Marble to im
 
 Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features. 
 
-## Current state of things
+### Current state of things
 
 As of now Marble supports rendering of OpenStreetMap vector data for 
 higher tile levels. In order to make the vector OSM map theme complete and 
 end ­user ready, support for medium and lower tile levels must be added.
 
-## What needs to be done
+### What needs to be done
 
 For supporting low level rendering( levels 1, 3, 5, 7, 9), Marble should 
 render using the Natural Earth vector dataset instead of the OSM vector 
@@ -35,12 +35,13 @@ Rendering of higher level tiles need to be improved by adding support for
 roof­types and texture tags of buildings as well as by adding support for 
 street markers.
 
-## My part of work
+### My part of work
 
 My work will majorly involve adding vector tile support at low levels using the Natural Earth dataset.
 This dataset is provided in SHP format and hence prior to any coding, the vector data in SHP format will need to be
 converted into OSM format using pre-existing tools such as shp2osm. After this we will have the OSM files but they are not yet tiled. These files would contain an enormous amount of data and if we load all this data into Marble then it would go out of memory and any color or styling would not exist.
 
+Natural Earth road dataset loaded in Marble. Notice the amount of detail, leading to screen clutter and the lack of any styling.
 ![Marble ]({{ site.url }}/assets/marble_sc1.png)
 
 After this conversion, my actual work starts in which I have to build a tool using the Mable libraries.
@@ -50,7 +51,10 @@ After this conversion, my actual work starts in which I have to build a tool usi
 * Concatenates the polygons and polyline where it makes sense.
 * Split the data into lots of different rectangular tiles.	
 
+The core of the work will involve lots of mathematical problems (e.g. simplifying paths, concatenating paths, averaging paths, clipping paths to a rect, drawing coastlines etc.)
+
 The goal is that by the end of GSoC, we will have a tool which cuts the natural earth dataset into tiles in 
-OSM file format which are properly styled and drawn inside Marble.
+OSM file format which are properly styled and rendered by Marble for each tile level in the same way as they are
+drawn for the bitmap tiles on openstreetmap.org
 
 
