@@ -4,10 +4,12 @@ title:  "Google Summer of Code with Marble !"
 date:   2016-04-20 10:18:00
 categories: gsoc open-source kde marble
 ---
-![Marble ]({{ site.url }}/assets/gsoc.png)
-![Marble ]({{ site.url }}/assets/marble-logo.png)
 
 I have been selected in GSoC and this summer's I will be working on Marble to improve its vector tiling and rendering capabilities.
+
+![gsoc logo]({{ site.url }}/assets/gsoc.png)
+
+![marble logo]({{ site.url }}/assets/marble-logo.png)
 
 Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features. 
 
@@ -43,7 +45,7 @@ My work will majorly involve adding vector tile support at low levels using the 
 This dataset is provided in SHP format and hence prior to any coding, the vector data in SHP format will need to be
 converted into OSM format using pre-existing tools such as shp2osm. After this we will have the OSM files but they are not yet tiled. These files would contain an enormous amount of data and if we load all this data into Marble then it would go out of memory and any color or styling would not exist.
 
-![Marble ]({{ site.url }}/assets/marble_sc1.png)
+![Marble]({{ site.url }}/assets/marble_sc1.png)
 *Natural Earth road dataset loaded in Marble. Notice the amount of detail, leading to screen clutter and the lack of any styling.*
 
 After this conversion, my actual work starts in which I have to build a tool using the Mable libraries.
