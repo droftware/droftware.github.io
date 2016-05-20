@@ -5,7 +5,6 @@ date:   2016-05-20 18:18:00
 categories: gsoc open-source kde marble
 ---
 
-![gsoc logo]({{ site.url }}/assets/gsoc.png)
 Hello everybody,
 I am Akshat Tandon and I am a computer science undergraduate at 
 IIIT­-H, India.
