@@ -11,6 +11,7 @@ IIIT­-H, India.
 I have been selected in GSoC and this summer I will be working on Marble to improve its vector tiling and rendering capabilities.
 
 ![gsoc logo]({{ site.url }}/assets/marble-logo-2.png)
+
 *Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features.*
 
 ### Current state of things
