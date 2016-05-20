@@ -6,8 +6,12 @@ categories: gsoc open-source kde marble
 ---
 
 ![gsoc logo]({{ site.url }}/assets/gsoc.png)
+Hello everybody,
+I am Akshat Tandon and I am a computer science undergraduate at 
+IIIT­-H, India.
+I have been selected in GSoC and this summer I will be working on Marble to improve its vector tiling and rendering capabilities.
 
-I have been selected in GSoC and this summer's I will be working on Marble to improve its vector tiling and rendering capabilities.
+![gsoc logo]({{ site.url }}/assets/marble-logo-2.png)
 
 Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features. 
 
@@ -47,6 +51,7 @@ converted into OSM format using pre-existing tools such as shp2osm. After this w
 *Natural Earth road dataset loaded in Marble. Notice the amount of detail, leading to screen clutter and the lack of any styling.*
 
 After this conversion, my actual work starts in which I have to build a tool using the Mable libraries.
+
 1. Which loads all these OSM files containg Natural Earth data.
 2. Merges all the data in a single document.
 3. Simplifies the data for a certain zoom level by reducing and filtering the number of nodes required for rendering.
