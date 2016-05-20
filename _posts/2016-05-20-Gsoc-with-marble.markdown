@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Google Summer of Code with Marble !"
-date:   2016-04-20 10:18:00
+date:   2016-05-20 15:18:00
 categories: gsoc open-source kde marble
 ---
 
@@ -12,8 +12,7 @@ IIIT­-H, India.
 I have been selected in GSoC and this summer I will be working on Marble to improve its vector tiling and rendering capabilities.
 
 ![gsoc logo]({{ site.url }}/assets/marble-logo-2.png)
-
-Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features. 
+*Marble, part of KDE software suite, is an open source virtual globe with tons of awesome features.*
 
 ### Current state of things
 
