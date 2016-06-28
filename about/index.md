@@ -1,26 +1,36 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
-image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+title: About me
+excerpt: "I am a computer science undergraduate at IIIT, Hyderabad."
 ---
+ 
+My name is Akshat Tandon and I am a computer science undergraduate at 
+IIIT­H( International Institute of Information Technology, Hyderabad ). 
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
-
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+## Open Source experience
+I was a Season of KDE 2015 participant and contributed by coding two 
+educational activities for GCompris. Currently I am a participant of GSoC under Marble, KDE
+ 
+### Contributions to KDE 
+* Marble 
+** Currently a GSoC student of Marble, KDE
+* GCompris 
+** Graph Coloring activity[2] (merged with the main 
+branch). You can read about my experience in building 
+this activity here : http://droftware.github.io/ 
+** Letter in word activity (merged with the main branch) 
+ 
+## Some of my mini projects are: 
+* [Projectile shooting 2D game(using OpenGL, C++)](https://bitbucket.org/akshat_tandon/cannon­shot)­ Shoot a 
+projectile to dislodge a target from its position.
+* [Adventure Land 3D game(using OpenGL, C++)](https://bitbucket.org/akshat_tandon/adventure­land) ­ Move a box around a 3D world while collecting golden boxes and preventing collision from the bad boxes and preventing the box from falling 
+down from an open pit.
+* [Ultimate Tic Tac Toe playing intelligent bot(using Python)](https://bitbucket.org/akshat_tandon/ultimate­tic­tac­toe­player/src )­ Play a modified version of ultimate tic tac toe with the computer. This AI 
+bot searches for the best move using a minimax search tree with 
+alpha beta pruning.
+* [Donkey Kong clone(using PyGame, Python)](https://bitbucket.org/akshat_tandon/adventure­land) 
+* [A simple linux shell(using C)](https://bitbucket.org/akshat_tandon/dsh­droftware­shell)  
+* [Program to construct finite fields using polynomial rings(using C)](https://bitbucket.org/akshat_tandon/filetransferprogram) 
+* [A simple file transfer program utilizing sockets(using C,C++)](https://bitbucket.org/akshat_tandon/filetransferprogram) 
+* [An image sharing web portal(using Java servlets)](https://github.com/cadac­image­share/cadac)
+ 
