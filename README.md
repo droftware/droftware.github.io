@@ -1,1 +1,0 @@
-Akshat Tandon's blog
