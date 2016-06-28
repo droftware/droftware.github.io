@@ -5,7 +5,7 @@ excerpt: "I am a computer science undergraduate at IIIT, Hyderabad."
 ---
  
 My name is Akshat Tandon and I am a computer science undergraduate at 
-IIIT­H( International Institute of Information Technology, Hyderabad ). 
+IIIT­-H( International Institute of Information Technology, Hyderabad ). 
 
 ## Open Source experience
 I was a Season of KDE 2015 participant and contributed by coding two 
@@ -13,11 +13,10 @@ educational activities for GCompris. Currently I am a participant of GSoC under 
  
 ### Contributions to KDE 
 * Marble 
-** Currently a GSoC student of Marble, KDE[1]
+** Currently a GSoC student of Marble, KDE
 * GCompris 
-** Graph Coloring activity[2] (merged with the main 
-branch). You can read about my experience in building 
-this activity here : http://droftware.github.io/ 
+** Graph Coloring activity (merged with the main 
+branch). 
 ** Letter in word activity (merged with the main branch) 
  
 ## Some of my mini projects are: 
