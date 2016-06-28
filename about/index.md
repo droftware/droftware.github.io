@@ -13,7 +13,7 @@ educational activities for GCompris. Currently I am a participant of GSoC under 
  
 ### Contributions to KDE 
 * Marble 
-** Currently a GSoC student of Marble, KDE
+** Currently a GSoC student of Marble, KDE[1]
 * GCompris 
 ** Graph Coloring activity[2] (merged with the main 
 branch). You can read about my experience in building 
@@ -34,3 +34,4 @@ alpha beta pruning.
 * [A simple file transfer program utilizing sockets(using C,C++)](https://bitbucket.org/akshat_tandon/filetransferprogram) 
 * [An image sharing web portal(using Java servlets)](https://github.com/cadac­image­share/cadac)
  
+ [1]: https://github.com/cadac­image­share/cadac
