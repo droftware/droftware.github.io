@@ -21,17 +21,21 @@ this activity here : http://droftware.github.io/
 ** Letter in word activity (merged with the main branch) 
  
 ## Some of my mini projects are: 
-* [Projectile shooting 2D game(using OpenGL, C++)](https://bitbucket.org/akshat_tandon/cannon­shot)­ Shoot a 
+* [Projectile shooting 2D game(using OpenGL, C++)](https://bitbucket.org/akshat_tandon/
+cannon­shot)­ Shoot a 
 projectile to dislodge a target from its position.
-* [Adventure Land 3D game(using OpenGL, C++)](https://bitbucket.org/akshat_tandon/adventure­land) ­ Move a box around a 3D world while collecting golden boxes and preventing collision from the bad boxes and preventing the box from falling 
+* [Adventure Land 3D game(using OpenGL, C++)](https://bitbucket.org/akshat_tandon/
+adventure­land) ­ Move a box around a 3D world while collecting golden boxes and preventing collision from the bad boxes and preventing the box from falling 
 down from an open pit.
-* [Ultimate Tic Tac Toe playing intelligent bot(using Python)](https://bitbucket.org/akshat_tandon/ultimate­tic­tac­toe­player/src )­ Play a modified version of ultimate tic tac toe with the computer. This AI 
+* [Ultimate Tic Tac Toe playing intelligent bot(using Python)](https://bitbucket.org/akshat_tandon/ultimate­tic­tac­toe­player)­ Play a modified version of ultimate tic tac toe with the computer. This AI 
 bot searches for the best move using a minimax search tree with 
 alpha beta pruning.
-* [Donkey Kong clone(using PyGame, Python)](https://bitbucket.org/akshat_tandon/adventure­land) 
-* [A simple linux shell(using C)](https://bitbucket.org/akshat_tandon/dsh­droftware­shell)  
+* [Donkey Kong clone(using PyGame, Python)](https://bitbucket.org/akshat_tandon/
+adventure­land) 
+* [A simple linux shell(using C)](https://bitbucket.org/akshat_tandon/
+dsh­droftware­shell)  
 * [Program to construct finite fields using polynomial rings(using C)](https://bitbucket.org/akshat_tandon/filetransferprogram) 
 * [A simple file transfer program utilizing sockets(using C,C++)](https://bitbucket.org/akshat_tandon/filetransferprogram) 
 * [An image sharing web portal(using Java servlets)](https://github.com/cadac­image­share/cadac)
  
- [1]: https://github.com/cadac­image­share/cadac
+
