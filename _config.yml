@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
+title: 
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: My adventures/mis-adventures with software
+logo: ninja.png
 search: true
 url: http://droftware.github.io
 
@@ -36,9 +36,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Akshat Tandon
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: akshat.tandon@research.iiit.ac.in
   disqus-shortname:
   twitter: #username
   facebook: #username
