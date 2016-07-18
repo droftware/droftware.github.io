@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Summer of Code with Marble !"
 date:   2016-05-20 10:18:00
-categories: gsoc open-source kde marble
+categories: gsoc open-source kde marble osgeo
 tags: gsoc open-source kde marble
 ---
 

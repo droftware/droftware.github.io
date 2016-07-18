@@ -1,11 +1,12 @@
 # Site wide configuration
 
-title: Akshat Tandon's blog
+title: 
 locale: en_US
 description: My adventures/mis-adventures with software
 logo: ninja_circ.jpg
 search: true
 url: http://droftware.github.io
+
 
 # Jekyll configuration
 
