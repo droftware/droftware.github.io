@@ -3,6 +3,7 @@ layout: post
 title:  "Building the Graph Coloring activity: Part 2"
 date:   2016-01-14 18:29:00
 categories: sok open-source kde
+tags: sok open-source kde
 ---
 ![Gcompris]({{ site.url }}/assets/gcompris_logo.png)
 
