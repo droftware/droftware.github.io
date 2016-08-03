@@ -23,7 +23,7 @@ polyshp2osm is basically a template code which needs to be extended so that all 
 
 However, eventually I settled on tweaking polyshp2osm instead of building a new converter from scratch on the lines of shp2pn2. Building a new converter will involve adding support for creating nodes, ways and relations on the existing shp2pn2 procedures which will take more time as compared to adding support for 1-2 more geometries in polyshp2osm. Also I will have to build a metadata extraction and tag-mapping feature for the new converter which are already present in the polyshp2osm tool.
 
-## Tweaking and fixing polyshp2osm so as to make it compatible with Natural Earth data and Marble stylings
+#### Tweaking and fixing polyshp2osm so as to make it compatible with Natural Earth data and Marble stylings
 
 So basically there were three types of additions/modifications which I had to do
 
