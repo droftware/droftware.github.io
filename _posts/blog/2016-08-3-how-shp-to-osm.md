@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "The How part 1 - Converting Natural Earth SHP to OSM format"
-date:   2016-08-3 19:00:00
+title:  "The How part (1) - Converting Natural Earth SHP to OSM format"
+date:   2016-08-3 21:00:00
 categories: gsoc open-source kde marble osgeo osm
 tags: gsoc open-source kde marble
 ---
 
-* This post is related to my GSoC project with Marble. For more more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) *
+** This post is related to my GSoC project with Marble. For more more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) **
 
 So my first GSoC task was finding efficient mechanisms/procedures for converting Natural Earth data in SHP format to OSM format. My mentors gave me two options, either create a new tool from scratch using Marble libraries on the lines of the existing shp2pn2 converter or modify the existing polyshp2osm tool. On IRC, it was discussed that if polyshp2osm.py script does not offer any advantage in extracting the metadata /semantics from SHP to OSM format resulting in suitable rendering of lakes and roads, then a new tool must be built.
 
