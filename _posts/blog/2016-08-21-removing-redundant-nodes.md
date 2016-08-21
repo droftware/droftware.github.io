@@ -41,8 +41,8 @@ The underlying algorithm of this node reduction module is pretty simple
 * nodeA = first node of the linestring, ring, or a polygon which is under consideration.
 * add nodeA to reducedLine
 * Iterate from the second to the second last node (so as to retain the first and last nodes) of a linestring, ring,  or a polygon
-..* If the great circle distance between the nodeA and the currentNode is greater than the minimum resolution defined for that level
-..* Then add currentNode to reducedLine and change value of nodeA to that of currentNode
+  * If the great circle distance between the nodeA and the currentNode is greater than the minimum resolution defined for that level
+  * Then add currentNode to reducedLine and change value of nodeA to that of currentNode
 * Add the last node to reducedLine
 * return reducedLine
 
