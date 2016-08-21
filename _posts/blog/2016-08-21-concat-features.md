@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The How part (3) - Concatenating the Natural Earth geographical features into a single OSM file"
-date:   2016-08-21 12:00:00
+date:   2016-08-21 15:00:00
 categories: gsoc open-source marble 
 tags: gsoc open-source kde marble
 ---
@@ -10,9 +10,9 @@ tags: gsoc open-source kde marble
 
 Till now, the polyshp2osm tool, which I had modified to support various kinds of geometries as well as OSM tag-mappings for Natural Earth metadata, supported conversion of a single shapefile into OSM.
 
-'''
+```
 python3 ~/a/marble/tools/shp2osm/polyshp2osm.py ne_110m_rivers_lake_centerlines.shp
-'''
+```
 
 The above command will convert the given shp file containing rivers and lakes into its OSM equivalent.
 
@@ -22,8 +22,8 @@ Now the straightforward way of doing this is to just concat the XML elements pro
 
 Now we can give multiple shp files as input to the tool and it will generate a single OSM file containing all the features of the input shp file without any redundant node data.
 
-'''
+```
 python3 ~/a/marble/tools/shp2osm/polyshp2osm.py ne_50m_land ne_50m_geographic_lines ne_50m_lakes ne_50m_glaciated_areas
-'''
+```
 
 The above command will concatenate the Natural Earth shp files containing land, geographic line, lakes and glaciated areas into a single OSM file.
