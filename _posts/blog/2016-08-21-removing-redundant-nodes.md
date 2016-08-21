@@ -2,7 +2,7 @@
 layout: post
 title:  "The How part (5) - Removing redundant nodes from OSM files"
 date:   2016-08-21 21:00:00
-categories: gsoc open-source marble
+categories: gsoc open-source marble kde osgeo osm
 tags: gsoc open-source kde marble
 ---
 
