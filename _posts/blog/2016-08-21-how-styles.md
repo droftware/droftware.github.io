@@ -15,12 +15,13 @@ Before describing my work let me first describe how Marble handles the styling f
 In fact, this ability to dynamically change the styling was recently added  by my mentor Dennis Nienhüser during the Randa meetings.
 
 In most of the cases, for adding the styling for a new geographic feature in Marble, one needs to do the following steps
- - Create a new GeoDataVisualCategory
- - Assign a default style to this GeoDataVisualCategory by describing the colors, width, pattern, icon which are associated with the feature
- - Decide the order of this new visual category w.r.t other visual categories. Visual categories which have a higher priority will be drawn on top of visual categories which have a lower priority.
- - Decide the minimum zoom level at which this new visual category starts appearing.
- - Map this visual category to some corresponding OSM key-value pair.
- - Decide if you want to change the default styling associated with this GeoDataVisualCategory on some particular zoom level or when some particular OSM key=value tags are encountered.
+
+ * Create a new GeoDataVisualCategory
+ * Assign a default style to this GeoDataVisualCategory by describing the colors, width, pattern, icon which are associated with the feature
+ * Decide the order of this new visual category w.r.t other visual categories. Visual categories which have a higher priority will be drawn on top of visual categories which have a lower priority.
+ * Decide the minimum zoom level at which this new visual category starts appearing.
+ * Map this visual category to some corresponding OSM key-value pair.
+ * Decide if you want to change the default styling associated with this GeoDataVisualCategory on some particular zoom level or when some particular OSM key=value tags are encountered.
 
 ## Natural Reefs
 
