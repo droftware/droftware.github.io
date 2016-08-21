@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "The How part (3) - Concatenating the Natural Earth geographical features into a single OSM file"
-date:   2016-08-21 15:00:00
-categories: gsoc open-source marble 
+date:   2016-08-21 16:00:00
+categories: gsoc open-source marble kde osgeo osm 
 tags: gsoc open-source kde marble
 ---
 
