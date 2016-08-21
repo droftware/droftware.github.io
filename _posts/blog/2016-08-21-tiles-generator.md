@@ -57,3 +57,4 @@ As you can see in the video, as all the data is getting rendered dynamically we 
 Apart from the clipping, there are resolution issues i.e. a particular feature is described by much greater number of nodes than required.
 
 After all the work related to lower level tiles was done, began the second part of my project which dealt with creation of tools for simplification and reduction of OSM data so that it is rendered smoothly and according to the visual requirement of medium zoom levels. I will discuss about these tools in future posts.
+
