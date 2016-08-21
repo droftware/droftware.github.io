@@ -51,6 +51,8 @@ With this tool in place, we can now easily generate the lower level vector tiles
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/4pEJYOS62KQ" frameborder="0" allowfullscreen></iframe>
 
+[video](https://youtu.be/4pEJYOS62KQ)
+
 As you can see in the video, as all the data is getting rendered dynamically we are getting a performance lag and the navigation is not very smooth. This is because of improper tile cutting as well as the huge size of data getting rendered at a particular instant. For creating the tiles, the script itself the preexisting vector tile cutter of Marble. This vector tile cutter in turn depends on osmconvert to actually clip the data and create smaller OSM tiles. However osmconvert's clipping is not very exact resulting in data redundancy. This redundancy causes Marble to render the same geographical feature 3 or 4 times causing severe performance penalties. Currently the clipping is being improved by Dávid Kolozsvári who is also a GSoC student working on Marble.
 Apart from the clipping, there are resolution issues i.e. a particular feature is described by much greater number of nodes than required.
 
