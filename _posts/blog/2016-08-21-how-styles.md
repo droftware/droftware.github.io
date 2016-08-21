@@ -16,12 +16,12 @@ In fact, this ability to dynamically change the styling was recently added  by m
 
 In most of the cases, for adding the styling for a new geographic feature in Marble, one needs to do the following steps
 
- * Create a new GeoDataVisualCategory
- * Assign a default style to this GeoDataVisualCategory by describing the colors, width, pattern, icon which are associated with the feature
- * Decide the order of this new visual category w.r.t other visual categories. Visual categories which have a higher priority will be drawn on top of visual categories which have a lower priority.
- * Decide the minimum zoom level at which this new visual category starts appearing.
- * Map this visual category to some corresponding OSM key-value pair.
- * Decide if you want to change the default styling associated with this GeoDataVisualCategory on some particular zoom level or when some particular OSM key=value tags are encountered.
+* Create a new GeoDataVisualCategory
+* Assign a default style to this GeoDataVisualCategory by describing the colors, width, pattern, icon which are associated with the feature
+* Decide the order of this new visual category w.r.t other visual categories. Visual categories which have a higher priority will be drawn on top of visual categories which have a lower priority.
+* Decide the minimum zoom level at which this new visual category starts appearing.
+* Map this visual category to some corresponding OSM key-value pair.
+* Decide if you want to change the default styling associated with this GeoDataVisualCategory on some particular zoom level or when some particular OSM key=value tags are encountered.
 
 ## Natural Reefs
 
@@ -70,7 +70,7 @@ Created a custom OSM tag marble_line=date and tag mapped it to a new visual cate
 
 ## Bathymetries
 
-Styling Bathymetries was quite tricky since I was allowed to use only a single visual category for styling different kinds of bathymetries. Initially I though that this was going to be straightforward and I only need to pass the elevation info of the bathymetry and depending on this info, I can then dynamically change the styling. However I eventually found that in order to do the above task, I need go down a layer of abstraction and hack a few things at the graphics level.
+Styling Bathymetries was quite tricky since I was allowed to use only a single visual category for styling different kinds of bathymetries. Initially I thought that this was going to be straightforward and I only need to pass the elevation info of the bathymetry and depending on this info, I can then dynamically change the styling. However I eventually found that in order to do the above task, I need go down a layer of abstraction and hack a few things at the graphics level.
 The problem was that the bathymetries at level 200 and 4000 were getting mixed up. Ideally bathymetries at level 4000 should appear above the bathymetry at level 200 but since the z-value(which decides which feature must be rendered on top of others) is fixed for a particular GeoDataVisualCategory, rendering the bathymetries was getting messed up. I had to make special cases in the graphics related methods of Marble so as to circumvent this problem.
 
 
