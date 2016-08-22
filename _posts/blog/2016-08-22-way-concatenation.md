@@ -8,6 +8,8 @@ tags: gsoc open-source kde marble
 
 ( This post is related to my GSoC project with Marble. For more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
 
+#### Problem ####
+
 As of now, If you load an openstreetmap  file containing linestrings such as highways, lanes or streets, in Marble and zoom to level 11, you will find that the highways or streets are not contigous and appear as broken.
 
 You will find the roads/streets as broken
@@ -17,6 +19,8 @@ You will find the roads/streets as broken
 Instead of getting contiguous roads
 
 ![road_joined]({{ site.url }}/assets/ak2.png)
+
+#### Cause ####
 
 One of the primary reasons for this discontiguity is that often a particular highway/lane/street is described using multiple contiguous OSM way elements instead of a single OSM way element. Marble treats each of these specific way element as a linestring object. However Marble omits rendering any objects which are smaller than 2px, in order to improve rendering performance.  Due to this, many of the OSM way elements, which are smaller than 2px don't get rendered. Hence the street appears broken since only those of its OSM way elements are rendered which are larger than 2px.
 
@@ -33,6 +37,8 @@ osm-simplify -t highway=* -w input.osm
 The above command concatenates all the highways present in the input file and produces a new osm file as output.
 
 Apart from solving the problem of discontinuity, way concatenation also results in data reduction since it is eliminating redundant node references and way elements. This data reduction in turn results in faster file parsing as well as improved rendering performance since now to render a single stretch of highway one only needs to create and render a single linestring object as opposed to multiple linestring objects.
+
+#### Algorithm ####
 
 The tricky part of coding this OSM way concatenator is actually coming up with an algorithm which concatenates all the linestrings present in an input file. Finally I and my mentors Dennis Nienhüser and Torsten Rahn were able to come up with a working algorithm for concatenating osm ways of a file in reasonable time (approximately O(n) time).
 
@@ -87,7 +93,7 @@ CreateWayChunk(way):
  Insert two new entries in the multi map having the starting and ending node IDs of the way as keys and the created WayChunk as the  value.
 ```
 
-* Results *
+#### Results ####
 
 The first image having discontiguous highways represents the raw input OSM file. This file has 2704 ways in total and has a size of 4.7 MB
 
