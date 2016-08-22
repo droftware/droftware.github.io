@@ -10,7 +10,7 @@ tags: gsoc open-source kde marble
 
 #### Problem ####
 
-As of now, If you load an openstreetmap  file containing linestrings such as highways, lanes or streets, in Marble and zoom to level 11, you will find that the highways or streets are not contigous and appear as broken.
+As of now, If you load an openstreetmap  file containing linestrings such as highways, lanes or streets, in Marble and zoom to level 11, you will find that the highways or streets are not contiguous and appear as broken.
 
 You will find the roads/streets as broken
 
