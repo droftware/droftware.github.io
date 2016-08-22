@@ -6,7 +6,7 @@ categories: gsoc open-source marble kde osgeo osm
 tags: gsoc open-source kde marble
 ---
 
-( This post is related to my GSoC project with Marble. For more more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
+( This post is related to my GSoC project with Marble. For more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
 
 The requirement for medium level tiles are a little bit different from those of lower level tiles. The biggest difference being that the medium levels will use openstreetmap data as opposed to the Natural Earth data. Another difference is that in lower level tiles the major data pre-processing steps were concatenation and conversion since the data was in shapefile format and the requirement was that of OSM whereas in medium levels the major data-pre processing steps are reduction, simplification, filtration and merging.
 

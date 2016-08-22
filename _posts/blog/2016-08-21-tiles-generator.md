@@ -6,7 +6,7 @@ categories: gsoc open-source marble kde osgeo osm
 tags: gsoc open-source kde marble
 ---
 
-( This post is related to my GSoC project with Marble. For more more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
+( This post is related to my GSoC project with Marble. For more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
 
 After revamping shp2osm tool and adding the missing styles, the only thing remaining for supporting lower level tiles was automating the process of tile generation . Before the process was automated, in order to create the lower level tiles one needed to manually download the Natural Earth shapefiles, combine and convert the shapefiles into a single OSM file using shp2osm tool, and then using the existing vector tile creator of Marble (which divides a large OSM file into small chunks of OSM vector tiles) create the tiles.
 

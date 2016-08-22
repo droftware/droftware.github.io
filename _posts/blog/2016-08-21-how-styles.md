@@ -6,7 +6,7 @@ categories: gsoc open-source kde marble osgeo osm
 tags: gsoc open-source kde marble
 ---
 
-( This post is related to my GSoC project with Marble. For more more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
+( This post is related to my GSoC project with Marble. For more information you can read the [introductory post]({% post_url /blog/2016-08-3-why-part-gsoc %}) )
 
 As I mentioned in my earlier post, I modified the polyshp2osm tool so as to support conversion of Natural Earth shapefiles to OSM format so that Marble is able to render geographical features(roads, rivers, reefs, airports) provided by the Natural Earth data set. Now the primary problem was that Marble never supported the rendering of many of the geographical features provided by Natural Earth. In order to enable rendering of a new geographic feature(reef, boundaries), one needs to describe how the feature must be styled by describing the colors to be used, the width of the boundaries, any geometric patterns or any icon which needs to be associated with the geometry.
 
